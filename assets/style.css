@@ -1,0 +1,120 @@
+
+/* .navbar-name {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: black;
+    padding-right: 25px;
+    padding-left: 25px;
+} */
+
+body {
+    background-image: url("./images/grey-background.jpg");
+    background-size: cover;
+}
+
+.grey-background {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./images/grey-background.jpg");
+    background-size: cover;
+    background-position: center;
+    /* border: thick; */
+}
+
+.nav-border {
+    border: 1px solid grey;
+    background-color: white;
+
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-border {
+        padding-left: 3em;
+    }
+}
+
+.nav-links {
+    /* border: 1px solid black; */
+    float: right;
+    /* background-color: white; */
+}
+
+
+.main-box {
+    background-color: white;
+    border: 1px solid grey;
+    /* padding: 2%; */
+}
+.navname-color {
+    background-color: lightseagreen;
+}
+
+.brand-color {
+    color: lightseagreen;
+    ;
+}
+
+.brand-bgcolor {
+    background-color: lightseagreen;
+    ;
+}
+
+.center-block {
+    float: none !important
+}
+
+.btn-primary {
+    border-color: lightseagreen;
+    background-color: lightseagreen;
+    width: 120px;
+}
+
+.btn-primary:hover {
+    border-color: lightseagreen;
+    background-color: seagreen;
+    width: 120px;
+}
+
+/* Container holding the image and the text */
+.img-container {
+    position: relative;
+    /* text-align: center; */
+    color: white;
+    /* padding: 20px; */
+  }
+
+.brand-img-text {
+    position: absolute;
+    bottom: 30px;
+    right: 0px;
+    height: 50px;
+    background-color: lightseagreen;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 90px;
+    width: 100%;
+    border-style: solid;
+    border-color: lightseagreen;
+    border-top-width: 8px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    /* opacity: 0.6; */
+    padding: 30px;
+}
+
