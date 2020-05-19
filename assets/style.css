@@ -28,6 +28,10 @@ body {
 
 }
 
+.nav-banner {
+    width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
     .nav-border {
         padding-left: 3em;
@@ -35,9 +39,22 @@ body {
 }
 
 .nav-links {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     float: right;
-    /* background-color: white; */
+    text-align: right;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+}
+
+ @media only screen and (max-width: 768px) {
+    .nav-links {
+        text-align: center;
+        float: none;
+        /* border: 1px solid blueviolet; */
+        padding-left: 25%;
+        padding-right: 25%;
+    }
 }
 
 
@@ -55,7 +72,7 @@ body {
     ;
 }
 
-.brand-bgcolor {
+.brand-bgColor {
     background-color: lightseagreen;
     ;
 }
