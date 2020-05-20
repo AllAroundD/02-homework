@@ -1,11 +1,4 @@
 
-/* .navbar-name {
-    color: #fff;
-    background-color: #17a2b8;
-    border-color: black;
-    padding-right: 25px;
-    padding-left: 25px;
-} */
 
 body {
     background-image: url("./images/grey-background.jpg");
@@ -39,7 +32,7 @@ body {
 }
 
 .nav-links {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     float: right;
     text-align: right;
     background-color: white;
@@ -72,9 +65,19 @@ body {
     ;
 }
 
-.brand-bgColor {
+.headerName {
     background-color: lightseagreen;
-    ;
+    /* font-size: 7rem; */
+}
+
+@media only screen and (max-width: 768px) {
+    .headerName {
+        text-align: center;
+        float: none;
+        /* border: 1px solid blueviolet; */
+        padding-left: 32%;
+        padding-right: 25%;
+    }
 }
 
 .center-block {
@@ -87,6 +90,30 @@ body {
     width: 120px;
 }
 
+.about-pic {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    /* width: 100%; */
+    /* position: absolute; */
+    border: blueviolet 1px solid;
+}
+
+
+/* @media only screen and (max-width: 768px) {
+    .about-pic {
+        text-align: center;
+        border: solid gold 1px;
+        width: 100%;
+} */
+
+.portfolio-img {
+    object-fit: contain;
+    width: fit-content;
+    /* width: 300px;
+    height: 200px; */
+}
+
 .btn-primary:hover {
     border-color: lightseagreen;
     background-color: seagreen;
@@ -96,24 +123,21 @@ body {
 /* Container holding the image and the text */
 .img-container {
     position: relative;
-    /* text-align: center; */
-    color: white;
-    /* padding: 20px; */
+    /* position: absolute; */
+    padding: 12px;
   }
 
 .brand-img-text {
+    padding: 5%;
     position: absolute;
     bottom: 30px;
-    right: 0px;
-    height: 50px;
+    vertical-align: middle;
+    /* right: 0px; */
+    /* height: 50px; */
     background-color: lightseagreen;
     color: white;
-    position: absolute;
     width: 100%;
     text-align: center;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); */
 }
 
 footer {
@@ -131,7 +155,6 @@ footer {
     text-align: center;
     background-color: black;
     color: white;
-    /* opacity: 0.6; */
     padding: 30px;
 }
 
