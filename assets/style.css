@@ -1,20 +1,11 @@
 
-
+/* background image */
 body {
     background-image: url("./images/grey-background.jpg");
     background-size: cover;
 }
 
-.grey-background {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("./images/grey-background.jpg");
-    background-size: cover;
-    background-position: center;
-    /* border: thick; */
-}
-
+/* This is for setting the border on the navigation bar */
 .nav-border {
     border: 1px solid grey;
     background-color: white;
@@ -25,14 +16,15 @@ body {
     width: 100%;
 }
 
+/* This is for setting the padding around the navigation bar when screen is lower than 768px */
 @media only screen and (min-width: 768px) {
     .nav-border {
         padding-left: 3em;
     }
 }
 
+/* This is for the navigation bar link section */
 .nav-links {
-    /* border: 1px solid black; */
     float: right;
     text-align: right;
     background-color: white;
@@ -40,41 +32,38 @@ body {
     font-size: small;
 }
 
+/* This is for setting the navigation settings when screen is lower than 768px */
  @media only screen and (max-width: 768px) {
     .nav-links {
         text-align: center;
         float: none;
-        /* border: 1px solid blueviolet; */
         padding-left: 25%;
         padding-right: 25%;
     }
 }
 
-
+/* main box on page */
 .main-box {
     background-color: white;
     border: 1px solid grey;
-    /* padding: 2%; */
-}
-.navname-color {
-    background-color: lightseagreen;
 }
 
+/* brand colour for pages */
 .brand-color {
     color: lightseagreen;
     ;
 }
 
+/* header background colour */
 .headerName {
     background-color: lightseagreen;
-    /* font-size: 7rem; */
 }
 
+/* This is for setting the header when screen is lower than 768px */
 @media only screen and (max-width: 768px) {
     .headerName {
         text-align: center;
         float: none;
-        /* border: 1px solid blueviolet; */
         padding-left: 32%;
         padding-right: 25%;
     }
@@ -84,62 +73,51 @@ body {
     float: none !important
 }
 
+/* This is for the About Me picture  */
+.about-pic {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+/* This is for the portfolio images */
+.portfolio-img {
+    /* object-fit: contain; */
+    /* width: fit-content; */
+    /* width: 300px;
+    height: 200px; */
+    max-width: 500px;
+    width:100%;
+
+}
+
+/* This is for the button settings */
 .btn-primary {
     border-color: lightseagreen;
     background-color: lightseagreen;
     width: 120px;
 }
 
-.about-pic {
-    object-fit: cover;
-    width: 200px;
-    height: 200px;
-    /* width: 100%; */
-    /* position: absolute; */
-    border: blueviolet 1px solid;
-}
-
-
-/* @media only screen and (max-width: 768px) {
-    .about-pic {
-        text-align: center;
-        border: solid gold 1px;
-        width: 100%;
-} */
-
-.portfolio-img {
-    object-fit: contain;
-    width: fit-content;
-    /* width: 300px;
-    height: 200px; */
-}
-
+/* button hover colour  */
 .btn-primary:hover {
     border-color: lightseagreen;
     background-color: seagreen;
     width: 120px;
 }
 
-/* Container holding the image and the text */
-.img-container {
-    position: relative;
-    /* position: absolute; */
-    padding: 12px;
-  }
-
+/* settings for the text over the images */
 .brand-img-text {
     padding: 5%;
     position: absolute;
     bottom: 30px;
     vertical-align: middle;
-    /* right: 0px; */
-    /* height: 50px; */
     background-color: lightseagreen;
     color: white;
     width: 100%;
     text-align: center;
 }
 
+/* footer for every page */
 footer {
     position: fixed;
     bottom: 0px;
@@ -157,4 +135,3 @@ footer {
     color: white;
     padding: 30px;
 }
-
